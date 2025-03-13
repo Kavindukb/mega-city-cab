@@ -85,7 +85,7 @@
             <div class="card shadow-sm">
                 <!-- Card Header -->
                 <div class="card-header">
-                    <img src="images/1.jpg" alt="Profile Image">
+                    <img src="images/log1.jpg" alt="Profile Image">
                     <h4 class="mt-3"><b>User Login</b></h4>
                     <span>Account Status: Active</span>
                 </div>
@@ -96,16 +96,16 @@
                     <form method="post" action="log">
                         <div class="mb-3">
                             <label class="form-label">User Name</label>
-                            <input type="text" class="form-control" name="username" placeholder="Enter User Name" required>
+                            <input type="text" id="uname" class="form-control" name="username" placeholder="Enter User Name" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Password</label>
-                            <input type="password" class="form-control" name="pass" placeholder="Enter Password" required>
+                            <input type="password" id="password" class="form-control" name="pass" placeholder="Enter Password" required>
                         </div>
 
                         <!-- Submit Button -->
                         <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn-submit">Submit</button>
+                            <button type="submit" id="submit" class="btn-submit">Submit</button>
                         </div>
                     </form>
 

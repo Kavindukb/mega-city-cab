@@ -98,18 +98,19 @@
             background: #218838; /* Darker green on hover */
         }
         .hero {
-    text-align: center;
-    padding: 0; /* Remove padding to ensure full screen usage */
-    background-image: url("images/home_banner1.jpg");
-    background-size: cover; /* Ensure the image covers the full area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Avoid repeating the image */
-    color: white;
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    animation: fadeIn 2s ease-in-out;
+            text-align: center;
+            padding: 0;
+            background-image: url("images/home_banner2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            min-height: 100vh; /* Ensure full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: auto;
 }
 
 @keyframes fadeIn {
